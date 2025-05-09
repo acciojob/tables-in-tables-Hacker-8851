@@ -3,58 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Table</title>
+    <title>Updated Table</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th, td {
+        border: 2px solid black;
+        padding: 8px;
+      }
+      caption {
+        font-weight: bold;
+      }
+      .highlight {
+        background-color: black;
+        color: white;
+      }
+    </style>
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
-      <caption>Main Table</caption>
+    <table>
       <tr>
         <td>
-          <table border="1">
-            <caption>Nested Table 1</caption>
+          <table>
+            <caption>Nested Table 2</caption>
             <thead>
               <tr>
-                <th>Nested Table 1</th>
                 <th>Column 1</th>
                 <th>Column 2</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Data 1</td>
-                <td>Data 2</td>
-                <td>Data 3</td>
-              </tr>
-              <tr>
-                <td>Data 4</td>
-                <td>Data 5</td>
-                <td>Data 6</td>
+                <td>abc</td>
+                <td>def</td>
               </tr>
             </tbody>
           </table>
         </td>
         <td>
-          <table border="1">
-            <caption>Nested Table 2</caption>
-            <thead>
-              <tr>
-                <th>Nested Table 2</th>
-                <th>Column 1</th>
-                <th>Column 2</th>
-              </tr>
-            </thead>
+          <table>
+            <caption>Nested Table 1</caption>
             <tbody>
-              <tr>
-                <td>Item 1</td>
-                <td>Item 2</td>
-                <td>Item 3</td>
-              </tr>
-              <tr>
-                <td>Item 4</td>
-                <td>Item 5</td>
-                <td>Item 6</td>
-              </tr>
               <tr>
                 <td>
                   <ul>
@@ -63,8 +55,6 @@
                     <li>List item 3</li>
                   </ul>
                 </td>
-                <td></td>
-                <td></td>
               </tr>
             </tbody>
           </table>
@@ -72,49 +62,28 @@
       </tr>
       <tr>
         <td>
-          <table border="1">
+          <table>
             <caption>Nested Table 3</caption>
             <thead>
               <tr>
-                <th>Nested Table 3</th>
-                <th>Column 1</th>
-                <th>Column 2</th>
+                <th>Nested Table</th>
+                <th>Demo Continued</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Content 1</td>
-                <td>Content 2</td>
-                <td>Content 3</td>
-              </tr>
-              <tr>
-                <td>Content 4</td>
-                <td>Content 5</td>
-                <td>Content 6</td>
+                <td>Content</td>
+                <td></td>
               </tr>
             </tbody>
           </table>
         </td>
         <td>
-          <table border="1">
+          <table>
             <caption>Nested Table 4</caption>
-            <thead>
-              <tr>
-                <th>Nested Table 4</th>
-                <th>Column 1</th>
-                <th>Column 2</th>
-              </tr>
-            </thead>
             <tbody>
               <tr>
-                <td>Example 1</td>
-                <td>Example 2</td>
-                <td>Example 3</td>
-              </tr>
-              <tr>
-                <td style="background-color: black; color: white;">HTML</td>
-                <td>Example 5</td>
-                <td>Example 6</td>
+                <td class="highlight">HTML</td>
               </tr>
             </tbody>
           </table>
