@@ -1,2 +1,20 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
 
-/* Your CSS Code here. */
+caption {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
